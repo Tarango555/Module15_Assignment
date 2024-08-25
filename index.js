@@ -12,7 +12,10 @@ const server= http.createServer(function (req, res){
         res.end("This is the About Page");
     }
 
-    
+    //Contact Page
+    if(req.url=='/contact'){
+        res.end("This is the Contact Page");
+    }
 
 });
 
